@@ -12,11 +12,12 @@ body{
 footer{
     color: #ff6666;
 }
-
+a.footerLink:link{color: #ff6666;}
 
 h1, h2, h3{
     color: #483D8B;
 }
+
 
 #dates th {
     padding-top: 12px;
@@ -25,22 +26,35 @@ h1, h2, h3{
     background-color: #483D8B;
     color: white;
 }
-
 #dates {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 30%;
 }
-
 #dates td, #dates th {
     border: 1px solid #efedf7;
     padding: 8px;
 }
-
 #dates tr:nth-child(even){background-color: #dedcef;}
-
 #dates tr:hover {background-color: #ff6666;}
 
+
+#effort table{
+    width: 30%;
+    border-collapse: collapse;
+}
+#effort td{
+    padding: 8px;
+}
+#effort tr:nth-child(1){
+    width: 50%;
+}
+#effort tr:nth-child(2){
+    width: 35%;
+}
+#effort tr:nth-child(3){
+    width: 15%;
+}
 
 
 li{
