@@ -1,0 +1,15 @@
+div {
+    color: darkred;
+    background: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: 24em;
+    font-family: Calibri;
+}
+
+
+
+body {
+    background: url(https://images-na.ssl-images-amazon.com/images/I/61qY-QXvlsL.jpg);
+    background-repeat: repeat;
+    background-size: 400px 600px;
+}
