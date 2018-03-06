@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Storybook for the Web Engineering Module</title>
+    <link rel="stylesheet" href="Storybook.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 <header>
     <dfn title="Drehbuch">Storybook</dfn> for the Web Engineering Module
@@ -19,26 +22,118 @@
     <section id="content">
         <h1>Delivery dates and examination details</h1>
         <article>
-            <h2>Overview</h2>
-            <table>
-                <caption>Delivery dates</caption>
-                <thead>       <tr><th> Date   </th><th>  # </th><th>Topic</th></tr></thead>
+            <h3>Overview</h3>
+            <table id="dates">
+                <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Topic</th>
+                </tr>
+                </thead>
+
                 <tbody>
-
-                <!-- fill from /storybook.txt here -->
-
+                <tr>
+                    <td>21.02.18</td>
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>28.02.18</td>
+                    <td>CSS</td>
+                </tr>
+                <tr>
+                    <td>07.03.18</td>
+                    <td>Grails, Web, MVC, Test</td>
+                </tr>
+                <tr>
+                    <td>14.03.18</td>
+                    <td>GSP, Template, Taglib, Layout</td>
+                </tr>
+                <tr>
+                    <td>21.03.18</td>
+                    <td>Javascript</td>
+                </tr>
+                <tr>
+                    <td>28.03.18</td>
+                    <td>Consolidation training</td>
+                </tr>
+                <tr>
+                    <td>11.04.18</td>
+                    <td>Persistence, DB-Access (GORM)</td>
+                </tr>
+                <tr>
+                    <td>18.04.18</td>
+                    <td>REST, Services</td>
+                </tr>
+                <tr>
+                    <td>02.05.18</td>
+                    <td>ATTENDANCE MANDATORY! Übungsvorbereitung</td>
+                </tr>
+                <tr>
+                    <td>09.05.18</td>
+                    <td>Exercise workshop</td>
+                </tr>
+                <tr>
+                    <td>16.05.18</td>
+                    <td>Responsive / Mobile Web</td>
+                </tr>
+                <tr>
+                    <td>23.05.18</td>
+                    <td>(Pfingstwoche)</td>
+                </tr>
+                <tr>
+                    <td>30.05.18</td>
+                    <td>IMPORTANT! Übungsabgabe</td>
+                </tr>
+                <tr>
+                    <td>06.06.18</td>
+                    <td>Deployment</td>
+                </tr>
+                <tr>
+                    <td>13.06.18</td>
+                    <td>Exam Preparation</td>
+                </tr>
                 </tbody>
-                <tfoot><tr><td colspan="3"> MSP date to be announced</td> </tr></tfoot>
             </table>
+            <h3>Exam details</h3>
+            <a>
+                <dfn title="MSP">Final Exam Date</dfn> to be announced.
+            </a>
         </article>
-        <article>
+
+        <article id="effort">
             <h2> Total Effort</h2>
-            <p> Classroom lectures add up to <code>13 * 3h = 39h</code>.</p>
-            <p> Prework and afterwork, including homework adds up to <code>13 * 2h = 26h</code>.</p>
-            <p> The exercise for the continuous assessment grade takes <code>3 * 5h = 15h</code>.</p>
-            <p> Preparation for the final exam will take approximately <code>8h</code>.</p>
-            <p> Writing the final exam takes <code>2h</code>.</p>
-            <p> This makes a total of <code>90h</code>.</p>
+            <table>
+                <tr>
+                    <td style="width: 70%">Classroom lectures add up to</td>
+                    <td style="width: 15%"><code>13 * 3h = </code></td>
+                    <td style="width: 15%"><code>39h</code></td>
+                </tr>
+                <tr>
+                    <td>Prework and afterwork, including homework adds up to</td>
+                    <td><code>13 * 2h =</code></td>
+                    <td><code>26h</code></td>
+                </tr>
+                <tr>
+                    <td>The exercise for the continuous assessment grade takes</td>
+                    <td><code>3 * 5h =</code></td>
+                    <td><code>15h</code></td>
+                </tr>
+                <tr>
+                    <td>Preparation for the final exam will take approximately</td>
+                    <td></td>
+                    <td><code>8h</code></td>
+                </tr>
+                <tr>
+                    <td>Writing the final exam takes</td>
+                    <td></td>
+                    <td><code>2h</code></td>
+                </tr>
+                <tr>
+                    <td>This makes a total of</td>
+                    <td></td>
+                    <td><code>90h</code></td>
+                </tr>
+            </table>
         </article>
         <article id="criteria">
             <h2> Passing criteria </h2>
@@ -47,7 +142,9 @@
                 <li>You have to do the exercise and deliver before the deadline.</li>
                 <li>You have to attend the <dfn title="Modulschlussprüfung">final exam (MSP)</dfn>.</li>
             </ul>
-            <p> Your exercise will determine your <abbr title="Erfahrungsnote">continuous assessment grade (EN)</abbr>. </p>
+
+            <p> Your exercise will determine your <abbr title="Erfahrungsnote">continuous assessment grade (EN)</abbr>.
+            </p>
             <p> EN and MSP together make your final grade. </p>
 
         </article>

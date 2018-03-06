@@ -1,0 +1,56 @@
+header{
+    color: #ff6666;
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+footer{
+    color: #ff6666;
+}
+
+
+h1, h2, h3{
+    color: #483D8B;
+}
+
+#dates th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #483D8B;
+    color: white;
+}
+
+#dates {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#dates td, #dates th {
+    border: 1px solid #efedf7;
+    padding: 8px;
+}
+
+#dates tr:nth-child(even){background-color: #dedcef;}
+
+#dates tr:hover {background-color: #ff6666;}
+
+
+
+li{
+    list-style: none;
+}
+
+li:before {
+    content: '\f058';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #483D8B;
+}
